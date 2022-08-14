@@ -1,13 +1,15 @@
-import React from 'react';
-import { Grid } from '@mui/material';
-import { Header } from './components/Header';
+import React from "react";
+import { Container } from "@mui/material";
+import { Header } from "./components/Header";
+import { Main } from "./components/Main";
 
 const App: React.FC = () => {
   return (
-    <Grid container maxWidth='lg' border="1px solid red">
-        <Header />
-    </Grid>
+    <Container sx={{ border: "1px solid red" }}>
+      <Header />
+      <Main />
+    </Container>
   );
-}
+};
 
 export default App;
