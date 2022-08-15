@@ -28,7 +28,7 @@ body[data-theme='dark'] {
 body[data-theme='light'] {
   --color-text: #2d3436;
   --color-bg: #ecf0f1;
-  --color-ui: #95a5a6;
+  --color-ui: #cccccc;
 
   --shadow: 0px 0px 10px rgba(206, 205, 205, 0.5);
 }
